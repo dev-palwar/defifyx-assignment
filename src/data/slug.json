@@ -1,0 +1,121 @@
+[
+    {
+        "title": "Introduction to Haki",
+        "level": "h1",
+        "content": "Haki is a mysterious power in the world of One Piece that allows the user to utilize their spiritual energy for various purposes.",
+        "children": [
+            {
+                "title": "What is Haki?",
+                "level": "h2",
+                "content": "Haki is a latent ability found in every living being, often unlocked through intense training or experience.",
+                "children": [
+                    {
+                        "title": "Origin of the Term",
+                        "level": "h3",
+                        "content": "The term 'Haki' translates to 'ambition' or 'willpower,' highlighting its internal, mental nature.",
+                        "children": [
+                            {
+                                "title": "Historical Use of Haki",
+                                "level": "h4",
+                                "content": "Before the term was formalized, powerful figures in history unknowingly used Haki in battle."
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Role in the One Piece World",
+                        "level": "h3",
+                        "content": "Haki plays a vital role in high-level combat and can match or even surpass Devil Fruit powers.",
+                        "children": [
+                            {
+                                "title": "Used by the Yonko",
+                                "level": "h4",
+                                "content": "Characters like Shanks, Kaido, and Big Mom are masters of Haki, using it to dominate the seas."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Types of Haki",
+                "level": "h2",
+                "content": "There are three main types of Haki, each with unique properties and combat applications.",
+                "children": [
+                    {
+                        "title": "Observation Haki",
+                        "level": "h3",
+                        "content": "Allows the user to sense the presence, emotions, and even the future movements of others.",
+                        "children": [
+                            {
+                                "title": "Advanced Forms",
+                                "level": "h4",
+                                "content": "Some users can see seconds into the future, as seen with Katakuri in the Whole Cake arc."
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Armament Haki",
+                        "level": "h3",
+                        "content": "Cloaks the user's body or weapon in a force that can bypass Devil Fruit defenses.",
+                        "children": [
+                            {
+                                "title": "Internal Destruction",
+                                "level": "h4",
+                                "content": "An advanced stage where the Haki penetrates and damages targets from within."
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Conqueror’s Haki",
+                        "level": "h3",
+                        "content": "A rare type that grants the ability to exert willpower over others and knock them unconscious.",
+                        "children": [
+                            {
+                                "title": "Clash of Kings",
+                                "level": "h4",
+                                "content": "When two users of Conqueror’s Haki clash, it can physically split the sky."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Training and Mastery",
+                "level": "h2",
+                "content": "Haki mastery requires rigorous physical and mental training, often in life-or-death scenarios.",
+                "children": [
+                    {
+                        "title": "Rayleigh’s Training of Luffy",
+                        "level": "h3",
+                        "content": "Luffy learns all three types of Haki under Rayleigh’s guidance during the two-year time skip.",
+                        "children": [
+                            {
+                                "title": "Use in Post-Time Skip Battles",
+                                "level": "h4",
+                                "content": "Luffy begins using Haki proficiently against strong opponents like Doflamingo and Kaido."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Haki vs. Devil Fruits",
+                "level": "h2",
+                "content": "Haki is one of the few forces in One Piece capable of countering the abilities of Devil Fruits.",
+                "children": [
+                    {
+                        "title": "Bypassing Logia Intangibility",
+                        "level": "h3",
+                        "content": "Armament Haki allows users to touch Logia-type users who are otherwise intangible.",
+                        "children": [
+                            {
+                                "title": "Examples from the Series",
+                                "level": "h4",
+                                "content": "Luffy uses Haki to punch Caesar Clown and bypass his Gas-Gas Fruit intangibility."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -8,8 +8,12 @@
   color: whitesmoke
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 li {
-  font-size: larger;
+  font-size: small;
 }
 
 @custom-variant dark (&:is(.dark *));

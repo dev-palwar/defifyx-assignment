@@ -33,7 +33,7 @@ const Toc: React.FC<TocProps> = ({ data, isCollapsible, activeColor }) => {
   return (
     <div className="m-auto container main-container p-4 flex flex-col gap-8">
       {/* Hero section starts */}
-      <div className="hero-section min-h-[95vh] flex flex-col lg:flex-row justify-between items-center px-4 lg:px-20 relative">
+      <div className="hero-section min-h-[95vh] flex flex-col lg:flex-row justify-end gap-4 items-center px-4 lg:px-20 relative">
         {/* Title */}
         <Typography
           variant="h1"
@@ -69,11 +69,11 @@ const Toc: React.FC<TocProps> = ({ data, isCollapsible, activeColor }) => {
 
       {/* Content viewer section */}
       <div className="content-viewer-section relative">
-        {/* Floating + Sticky ToC */}
+        {/* Floating and Sticky tox */}
         {showFloatingToc && (
           <div
             className="fixed top-16 right-12 z-10 w-[300px] bg-accent border rounded-3xl shadow-xl
-      opacity-100 hover:opacity-100 scale-95 hover:scale-100 
+      opacity-0 hover:opacity-100 scale-95 hover:scale-100 
       translate-y-2 hover:translate-y-0 transition-all duration-300 ease-in-out p-3
       hidden sm:block"
           >
@@ -89,7 +89,6 @@ const Toc: React.FC<TocProps> = ({ data, isCollapsible, activeColor }) => {
           </div>
         )}
 
-        {/* Scrollable Content */}
         <TocRenderer data={data} />
       </div>
     </div>

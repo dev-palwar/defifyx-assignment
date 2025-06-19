@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from "react";
-import shanks from "../../assets/shanks.jpg";
-import TocList from "./toc-list";
+import poster from "../../assets/nen.jpg";
 import type { TocProps } from "../../types";
 import { Typography } from "../ui/typography";
 import TocRenderer from "./toc-renderer";
+import TocList from "./toc-list";
 
 const Toc: React.FC<TocProps> = ({ data, isCollapsible, activeColor }) => {
   const [highlightedId, setHighlightedId] = useState<string>();
   const [expandedMap, setExpandedMap] = useState<Record<string, boolean>>({});
+  const [showFloatingToc, setShowFloatingToc] = useState(false);
 
   useEffect(() => {
     const handleHashChange = () => {
@@ -18,18 +19,32 @@ const Toc: React.FC<TocProps> = ({ data, isCollapsible, activeColor }) => {
     return () => window.removeEventListener("hashchange", handleHashChange);
   }, []);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+      // Show after scrolling 90vh (height of hero)
+      setShowFloatingToc(scrollY > window.innerHeight * 0.9);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <div className="main-container p-4 flex flex-col gap-8">
-      <div className="hero-section h-[95vh] flex justify-evenly relative">
+    <div className="m-auto container main-container p-4 flex flex-col gap-8">
+      {/* Hero section starts */}
+      <div className="hero-section min-h-[95vh] flex flex-col lg:flex-row justify-between items-center px-4 lg:px-20 relative">
+        {/* Title */}
         <Typography
           variant="h1"
-          className="font-italiana mb-4 -rotate-90 absolute bottom-32 left-0"
+          className="font-italiana mb-6 lg:mb-0 text-center lg:text-left lg:-rotate-90 lg:absolute lg:bottom-32 lg:left-0 text-2xl lg:text-4xl"
         >
           Table of Contents
         </Typography>
 
-        <div className="flex justify-end gap-28">
-          <div className="self-center transition-all duration-500 ease-in-out">
+        {/* TocList container */}
+        <div className="w-full lg:w-[40%] flex justify-center lg:justify-end">
+          <div className="transition-all duration-500 ease-in-out w-full max-w-md">
             <TocList
               items={data}
               prefix=""
@@ -40,30 +55,41 @@ const Toc: React.FC<TocProps> = ({ data, isCollapsible, activeColor }) => {
               activeColor={activeColor}
             />
           </div>
+        </div>
 
-          <div className="poster h-full">
-            <img src={shanks} alt="poster" className="h-full object-fill" />
-          </div>
+        {/* Poster Image */}
+        <div className="w-full lg:w-[50%]">
+          <img
+            src={poster}
+            alt="poster"
+            className="w-full h-auto object-contain max-h-[70vh] rounded-lg"
+          />
         </div>
       </div>
 
-      <div className="content-viewer-section relative flex flex-col">
-        <div
-          className="sticky w-[50%] self-end bg-accent top-12 right-12 border rounded-3xl shadow-xl
-          opacity-0 hover:opacity-100 scale-95 hover:scale-100 
-          translate-y-2 hover:translate-y-0 transition-all duration-300 ease-in-out p-3"
-        >
-          <TocList
-            items={data}
-            prefix=""
-            highlightedId={highlightedId}
-            expandedMap={expandedMap}
-            setExpandedMap={setExpandedMap}
-            isCollapsible={isCollapsible}
-            activeColor={activeColor}
-          />
-        </div>
+      {/* Content viewer section */}
+      <div className="content-viewer-section relative">
+        {/* Floating + Sticky ToC */}
+        {showFloatingToc && (
+          <div
+            className="fixed top-16 right-12 z-10 w-[300px] bg-accent border rounded-3xl shadow-xl
+      opacity-100 hover:opacity-100 scale-95 hover:scale-100 
+      translate-y-2 hover:translate-y-0 transition-all duration-300 ease-in-out p-3
+      hidden sm:block"
+          >
+            <TocList
+              items={data}
+              prefix=""
+              highlightedId={highlightedId}
+              expandedMap={expandedMap}
+              setExpandedMap={setExpandedMap}
+              isCollapsible={isCollapsible}
+              activeColor={activeColor}
+            />
+          </div>
+        )}
 
+        {/* Scrollable Content */}
         <TocRenderer data={data} />
       </div>
     </div>

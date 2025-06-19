@@ -1,5 +1,4 @@
 import * as React from "react";
-import { Slot } from "@radix-ui/react-slot";
 import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "../../lib/utils";
 
@@ -19,24 +18,36 @@ const typographyVariants = cva("", {
   },
 });
 
-function Typography({
-  className,
-  variant,
-  asChild = false,
-  ...props
-}: React.ComponentProps<"button"> &
-  VariantProps<typeof typographyVariants> & {
-    asChild?: boolean;
-  }) {
-  const Comp = asChild ? Slot : "button";
+// Map variant to semantic tag
+const tagMap = {
+  p: "p",
+  h1: "h1",
+  h2: "h2",
+  h3: "h3",
+  h4: "h4",
+  muted: "span",
+} as const;
 
-  return (
-    <Comp
-      data-slot="button"
-      className={cn(typographyVariants({ variant, className }))}
-      {...props}
-    />
-  );
+export interface TypographyProps
+  extends React.HTMLAttributes<HTMLElement>,
+    VariantProps<typeof typographyVariants> {
+  asChild?: boolean;
 }
+
+const Typography = React.forwardRef<HTMLElement, TypographyProps>(
+  ({ className, variant = "p", asChild, ...props }, ref) => {
+    const Comp = asChild ? "span" : tagMap[variant ?? "p"] || "p";
+
+    return (
+      <Comp
+        ref={ref as never}
+        className={cn(typographyVariants({ variant }), className)}
+        {...props}
+      />
+    );
+  }
+);
+
+Typography.displayName = "Typography";
 
 export { Typography, typographyVariants };

@@ -12,10 +12,6 @@ html {
   scroll-behavior: smooth;
 }
 
-li {
-  font-size: small;
-}
-
 @custom-variant dark (&:is(.dark *));
 
 @theme {

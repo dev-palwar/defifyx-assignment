@@ -1,118 +1,256 @@
 [
     {
-        "title": "Introduction to Haki",
-        "level": "h1",
-        "content": "Haki is a mysterious force in the world of One Piece that allows individuals to tap into their inner spiritual energy and project it externally for various powerful effects. Unlike Devil Fruits, which grant supernatural abilities through consumption, Haki is an ability latent within all living beings. It can be awakened through intense training, emotional stress, or battle experience. This power is often invisible to the untrained eye, yet it plays a critical role in the upper tiers of combat, especially among seasoned pirates, marines, and warriors who have surpassed the limitations of normal physical prowess.",
+        "title": "Introduction to Nen",
+        "level": "h2",
+        "content": "Nen is the fundamental power system in Hunter x Hunter, representing the ability to manipulate one's own life energy or aura. This mysterious force exists within all living beings, though most people remain unaware of its presence throughout their entire lives. Only through specific training methods or extreme circumstances can individuals learn to perceive and control their aura. Once awakened, Nen grants users extraordinary abilities that can range from enhanced physical capabilities to reality-bending supernatural powers. The complexity and versatility of Nen make it one of the most intricate power systems in anime, with endless possibilities for creative application.",
         "children": [
             {
-                "title": "What is Haki?",
-                "level": "h2",
-                "content": "Haki is an innate ability that resides within every living creature, though only a few ever learn to access or control it. It manifests in different ways depending on the user's personality, training, and circumstances. Rather than being something granted externally, Haki must be honed through willpower and experience. The true potential of Haki lies in the user’s ability to sense and manipulate their own spirit energy, which can be used for both offense and defense, as well as to exert dominance over others. It is a reflection of one's spirit and conviction.",
+                "title": "What is Nen?",
+                "level": "h3",
+                "content": "Nen is the technique of manipulating and utilizing one's own life energy, which flows through all living things. This energy, called aura, can be harnessed to perform incredible feats that would otherwise be impossible. The mastery of Nen requires not only physical training but also mental discipline and a deep understanding of one's own nature. Unlike other power systems that rely on external sources, Nen draws entirely from within, making it a reflection of the user's personality, desires, and convictions. The stronger one's will and the clearer their understanding of themselves, the more powerful their Nen abilities become.",
                 "children": [
                     {
-                        "title": "Origin of the Term",
-                        "level": "h3",
-                        "content": "The term 'Haki' originates from a Japanese word that translates to 'ambition', 'willpower', or 'spirit'. This naming emphasizes its internal and mental characteristics—Haki is not a tangible skill that can be taught in a traditional sense, but rather a force that must be awakened from within. In the One Piece world, the concept of Haki existed long before it was formally named. Many individuals in ancient times unknowingly used Haki, believing it to be pure instinct or natural battle prowess.",
-                        "children": [
-                            {
-                                "title": "Historical Use of Haki",
-                                "level": "h4",
-                                "content": "Even before the word 'Haki' became known to the wider world, powerful individuals such as pirates, warriors, and kings used it unknowingly in battle. Their sheer will would intimidate enemies, sense danger, or let them perform feats that seemed impossible. These historic instances of Haki usage were often misattributed to skill or luck, but in reality, they were early manifestations of spiritual energy taking form under extreme conditions."
-                            }
-                        ]
+                        "title": "Aura Nodes",
+                        "level": "h4",
+                        "content": "The human body contains numerous aura nodes, also known as Shōkō, which are the points through which life energy flows. In normal individuals, these nodes remain tightly closed, preventing the leakage of aura and keeping people unaware of their internal energy. Opening these nodes through training or force is the first step in learning Nen. Once opened, the nodes allow for the controlled release and manipulation of aura, but they also make the user more vulnerable to Nen attacks from others."
                     },
                     {
-                        "title": "Role in the One Piece World",
-                        "level": "h3",
-                        "content": "Haki is considered essential for high-level combat in the world of One Piece, particularly in battles where Devil Fruit powers fall short. It allows non-Devil Fruit users to compete on equal footing with those who possess supernatural abilities. Even among Devil Fruit users, Haki becomes necessary to counter other abilities, especially those involving intangibility or overwhelming force. It has become a distinguishing feature of the most feared and respected characters, including members of the Yonko and Admirals, solidifying its place as a cornerstone of power in the New World.",
-                        "children": [
-                            {
-                                "title": "Used by the Yonko",
-                                "level": "h4",
-                                "content": "The Yonko—Shanks, Kaido, Big Mom, and Blackbeard—are prime examples of Haki masters who dominate the seas. They rely on Haki not just for combat but also to exert authority and instill fear. Shanks, for example, is famed for his exceptional Conqueror’s Haki, which can incapacitate weaker individuals just by his presence. Kaido and Big Mom combine their physical might with Armament and Conqueror's Haki to engage in battles that shake the very foundations of the world."
-                            }
-                        ]
+                        "title": "Life Energy and Fatigue",
+                        "level": "h4",
+                        "content": "Using Nen draws directly from one's life force, which means overexertion can lead to severe fatigue, unconsciousness, or even death in extreme cases. This limitation ensures that Nen users must carefully manage their energy expenditure and cannot rely solely on their abilities without consequence. The finite nature of aura creates strategic depth in battles, as users must balance offensive power with defensive capabilities while conserving enough energy to survive prolonged encounters."
                     }
                 ]
             },
             {
-                "title": "Types of Haki",
-                "level": "h2",
-                "content": "There are three distinct types of Haki, each offering unique capabilities in combat and perception. Observation Haki allows the user to sense others beyond normal vision, detect emotions, and even predict movements. Armament Haki enables the user to create invisible armor for defense or to enhance attacks, making it particularly effective against Devil Fruit users. Conqueror’s Haki, the rarest form, allows the user to overwhelm the will of others and is said to be possessed only by those destined to lead. These types of Haki can be used individually or in combination, depending on the user's mastery and intent.",
+                "title": "The Four Basic Principles",
+                "level": "h3",
+                "content": "Nen mastery begins with learning the four fundamental techniques: Ten, Zetsu, Ren, and Hatsu. These principles form the foundation upon which all advanced Nen abilities are built. Ten involves maintaining a protective aura around the body, Zetsu is the ability to completely shut off one's aura, Ren focuses on amplifying and projecting aura, and Hatsu represents the expression of one's unique Nen ability. Mastering these basics is essential before attempting more complex techniques, as they provide the control and understanding necessary for safe Nen usage.",
                 "children": [
                     {
-                        "title": "Observation Haki",
-                        "level": "h3",
-                        "content": "Observation Haki, also known as Kenbunshoku Haki, allows its user to heighten their senses and perceive the world around them beyond physical limits. It grants the ability to detect the presence, emotions, and intentions of others, even through obstacles or at a distance. Skilled users can sense incoming attacks before they happen, making it a powerful tool for both defense and evasion. At its highest level, users can peer into the near future, anticipating movements and strategies, as demonstrated by characters like Charlotte Katakuri.",
-                        "children": [
-                            {
-                                "title": "Advanced Forms",
-                                "level": "h4",
-                                "content": "Advanced Observation Haki allows users to literally see several seconds into the future, creating a nearly unbeatable edge in battle. This form requires not only intense focus but also a calm and composed mindset. Katakuri’s use of this ability lets him avoid nearly all incoming attacks by observing their outcomes before they happen, demonstrating the true strategic depth of this Haki type."
-                            }
-                        ]
+                        "title": "Ten - Shroud",
+                        "level": "h4",
+                        "content": "Ten is the basic technique of maintaining a stable aura around one's body. It serves as both protection against external Nen attacks and a way to slow down aging by preventing the unnecessary loss of life energy. Proper Ten technique creates an invisible barrier that can block physical and spiritual attacks while also enhancing the user's natural durability. This technique must be maintained constantly by serious Nen users, as it forms the foundation for all other applications."
                     },
                     {
-                        "title": "Armament Haki",
-                        "level": "h3",
-                        "content": "Armament Haki, or Busoshoku Haki, hardens the user's body or weapon with an invisible armor that significantly boosts both offensive and defensive power. It enables users to strike Devil Fruit users who would otherwise be immune due to their element-based bodies. It can also be used to block or tank attacks that would be lethal under normal circumstances. At higher levels, Armament Haki can be projected outward and used to bypass external defenses entirely.",
-                        "children": [
-                            {
-                                "title": "Internal Destruction",
-                                "level": "h4",
-                                "content": "This advanced form of Armament Haki allows the user to send energy inside an opponent’s body and destroy it from within. It bypasses surface-level defenses and causes internal damage without leaving external injuries, making it one of the most devastating forms of Haki. Luffy began mastering this technique during his training in Udon Prison to prepare for his battle against Kaido."
-                            }
-                        ]
-                    },
+                        "title": "Zetsu - Suppress",
+                        "level": "h4",
+                        "content": "Zetsu involves completely closing one's aura nodes to stop the flow of aura entirely. This technique is useful for hiding one's presence from other Nen users and for conserving energy during periods of rest. However, using Zetsu also leaves the user vulnerable to attacks, as they lose the protective benefits of Ten. Skilled users can switch between Ten and Zetsu rapidly, allowing them to remain hidden while still being able to defend themselves when necessary."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Nen Types and Specializations",
+        "level": "h2",
+        "content": "Every Nen user belongs to one of six categories that determine their natural affinities and the types of abilities they can most effectively develop. These categories are Enhancement, Emission, Manipulation, Transmutation, Conjuration, and Specialization. Each type has its own strengths and limitations, and understanding one's category is crucial for developing powerful and efficient Nen abilities. The Nen type is determined through a process called Water Divination, where the user's aura interacts with water in a glass to reveal their natural inclination. While users can learn techniques from other categories, they will always be most proficient in their own type.",
+        "children": [
+            {
+                "title": "Enhancement",
+                "level": "h3",
+                "content": "Enhancement is the most straightforward Nen category, focusing on improving and strengthening existing things. Enhancers can boost their physical abilities, increase the durability of objects, or accelerate healing processes. This type is considered the most balanced and reliable, as it doesn't require complex techniques or extensive preparation. Enhancers tend to be simple, determined individuals who prefer direct approaches to problem-solving. Their abilities often manifest as increased strength, speed, or defensive capabilities, making them formidable opponents in close combat.",
+                "children": [
                     {
-                        "title": "Conqueror’s Haki",
-                        "level": "h3",
-                        "content": "Conqueror’s Haki, or Haoshoku Haki, is a rare and elite form that only a few are born with. It allows the user to exert their willpower over others, often knocking out those with weak spirits in a wide area. It is said to be a sign of a king or someone with the potential to stand above all others. This form cannot be trained into existence, only improved upon by those who possess it. Its most powerful applications involve infusing attacks with Conqueror’s energy, dramatically increasing damage output.",
-                        "children": [
-                            {
-                                "title": "Clash of Kings",
-                                "level": "h4",
-                                "content": "When two powerful users of Conqueror’s Haki clash, the resulting force can cause massive shockwaves and even split the sky itself. These confrontations are more than just physical battles—they are tests of dominance, where the very world seems to react to the wills of the fighters. Such clashes have been witnessed during legendary duels like the one between Shanks and Whitebeard."
-                            }
-                        ]
+                        "title": "Gon's Jajanken",
+                        "level": "h4",
+                        "content": "Gon Freecss, the protagonist of Hunter x Hunter, is an Enhancer whose signature ability is Jajanken. This technique involves charging aura into his fist to deliver devastating punches, similar to a game of rock-paper-scissors. The 'Rock' version concentrates all his aura into a single, powerful strike that can destroy massive objects. Despite its simple concept, Jajanken's effectiveness comes from Gon's pure determination and his natural talent for Enhancement."
                     }
                 ]
             },
             {
-                "title": "Training and Mastery",
-                "level": "h2",
-                "content": "Mastering Haki is not a simple feat—it requires rigorous physical and mental conditioning, along with experience in life-threatening situations. Training often involves pushing one’s body to the brink while maintaining intense focus and emotional control. The user must also develop a deep understanding of their own spirit, as Haki is closely tied to one’s resolve and conviction. As seen with Luffy, dedicated practice under guidance, combined with real combat experience, is essential for evolving basic Haki into advanced forms capable of challenging the world’s strongest warriors.",
+                "title": "Transmutation",
+                "level": "h3",
+                "content": "Transmutation allows users to change the properties of their aura to mimic other substances or phenomena. Transmuters can make their aura feel like rubber, conduct electricity, become sticky like gum, or even replicate the properties of specific materials. This category requires creativity and a deep understanding of the properties being mimicked. Transmuters are often described as whimsical and unpredictable, with abilities that reflect their unique personalities and interests. The versatility of Transmutation makes it one of the most adaptable Nen types in combat situations.",
                 "children": [
                     {
-                        "title": "Rayleigh’s Training of Luffy",
-                        "level": "h3",
-                        "content": "After suffering a major defeat at the Sabaody Archipelago, Luffy realized the need to become stronger. Under the tutelage of Silvers Rayleigh, former right-hand man to the Pirate King, Luffy underwent two years of intense Haki training on the isolated Rusukaina island. Rayleigh introduced him to all three forms of Haki and forced him to confront the limits of his physical and emotional endurance. This training laid the foundation for Luffy’s post-time skip power.",
-                        "children": [
-                            {
-                                "title": "Use in Post-Time Skip Battles",
-                                "level": "h4",
-                                "content": "Following his training, Luffy began implementing Haki in major battles, using Observation to evade attacks, Armament to damage Logia users, and Conqueror’s to dominate weaker foes. His fight against Doflamingo showcased his intermediate mastery, while his later confrontations with Katakuri and Kaido demonstrated his evolution into advanced Haki techniques."
-                            }
-                        ]
+                        "title": "Killua's Godspeed",
+                        "level": "h4",
+                        "content": "Killua Zoldyck demonstrates Transmutation by converting his aura into electricity, a technique he developed based on his resistance to electric torture. His ability, Godspeed, allows him to move at incredible speeds by using electrical impulses to accelerate his nervous system. This technique showcases how Transmutation can create abilities that seem to defy natural laws while still being grounded in the user's personal experiences and characteristics."
+                    },
+                    {
+                        "title": "Hisoka's Bungee Gum",
+                        "level": "h4",
+                        "content": "Hisoka's signature ability, Bungee Gum, transmutes his aura to have the properties of both rubber and gum. This allows him to stretch his aura like elastic bands while maintaining its sticky qualities. The technique's simplicity belies its incredible versatility, as Hisoka can use it for offense, defense, mobility, and tactical manipulation. His ability perfectly reflects his unpredictable and playful personality while being devastatingly effective in combat."
                     }
                 ]
             },
             {
-                "title": "Haki vs. Devil Fruits",
-                "level": "h2",
-                "content": "One of Haki’s most significant roles is its ability to counter Devil Fruit powers, making it a vital equalizer in the One Piece world. While Devil Fruits grant incredible abilities, they also come with weaknesses, and Haki directly exploits those vulnerabilities. Through Armament Haki, users can bypass otherwise untouchable powers like Logia intangibility. Furthermore, Conqueror’s Haki can overwhelm even seasoned Devil Fruit users if their will is inferior. As such, Haki not only complements but often transcends the limitations imposed by Devil Fruit abilities.",
+                "title": "Conjuration",
+                "level": "h3",
+                "content": "Conjuration involves creating physical objects or beings from pure aura. These materialized items can possess properties and abilities that don't exist in the natural world, making Conjuration one of the most powerful but restrictive Nen categories. Conjurers must have detailed knowledge of what they're creating, often requiring extensive study and practice before they can successfully materialize complex objects. The created items are typically visible to non-Nen users and can interact with the physical world normally. However, the more complex or powerful the conjured object, the more restrictions the user must place on themselves.",
                 "children": [
                     {
-                        "title": "Bypassing Logia Intangibility",
-                        "level": "h3",
-                        "content": "Logia-type Devil Fruit users are usually impervious to physical attacks due to their elemental bodies, which can phase through strikes. However, Armament Haki allows users to land solid hits on them by embedding spiritual energy into their blows. This effectively neutralizes the main advantage of Logia powers and allows for more balanced combat.",
-                        "children": [
-                            {
-                                "title": "Examples from the Series",
-                                "level": "h4",
-                                "content": "A notable example is when Luffy used Armament Haki to punch Caesar Clown, a Logia user with the Gas-Gas Fruit. Without Haki, Luffy's punches would have passed through Caesar's gaseous form harmlessly. But by coating his fists with Haki, Luffy was able to deliver solid, impactful blows that bypassed Caesar's natural defense."
-                            }
-                        ]
+                        "title": "Kurapika's Holy Chain",
+                        "level": "h4",
+                        "content": "Kurapika's Nen abilities center around conjured chains that appear on his right hand when he enters Emperor Time. Each chain has a specific function, from the Healing Chain that can cure any injury to the Judgment Chain that can kill its target if they break a promise. These abilities are incredibly powerful but come with severe restrictions, such as only being usable against members of the Phantom Troupe, demonstrating how Conjuration often requires significant limitations to achieve great power."
+                    }
+                ]
+            },
+            {
+                "title": "Manipulation",
+                "level": "h3",
+                "content": "Manipulation allows users to control objects, people, or even abstract concepts according to their will. This category is often considered one of the most dangerous because it can strip away free will and autonomy from others. Manipulators can control physical objects remotely, influence emotions and thoughts, or even manipulate probability and luck. The effectiveness of Manipulation often depends on the conditions and restrictions the user places on their abilities. Manipulators tend to be logical, systematic individuals who prefer to control situations from behind the scenes.",
+                "children": [
+                    {
+                        "title": "Illumi's Needle People",
+                        "level": "h4",
+                        "content": "Illumi Zoldyck uses Manipulation to control people by inserting his specialized needles into their bodies. Once implanted, these needles allow him to control the victim's actions completely, turning them into puppets that will obey his commands without question. This ability demonstrates the terrifying potential of Manipulation when used without moral restraint, as it can turn loved ones into weapons against their will."
+                    }
+                ]
+            },
+            {
+                "title": "Emission",
+                "level": "h3",
+                "content": "Emission involves projecting aura away from the user's body while maintaining control over it. This category allows for ranged attacks and the creation of autonomous aura constructs that can operate independently. Emitters can fire aura blasts, create energy projectiles, or even teleport by sending their aura to distant locations. The key challenge of Emission is maintaining control over aura as it gets further from the user's body, as the connection naturally weakens with distance. Emitters are often described as impatient and quick-tempered, preferring to solve problems from a distance.",
+                "children": [
+                    {
+                        "title": "Razor's Nen Beasts",
+                        "level": "h4",
+                        "content": "Razor, one of Greed Island's Game Masters, creates powerful Nen beasts through Emission that can act independently while following his commands. These constructs are strong enough to participate in intense physical activities like dodgeball and can be reformed if destroyed. His ability showcases how Emission can create semi-permanent constructs that maintain their form and function even when separated from their creator."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "The Hunter Association",
+        "level": "h2",
+        "content": "The Hunter Association is a globally recognized organization that governs the activities of Hunters, elite individuals who have passed the notoriously difficult Hunter Exam. Founded to regulate and support those who pursue dangerous knowledge, rare treasures, and unknown territories, the Association provides its members with incredible freedoms and resources. Hunters receive licenses that grant them access to restricted areas, classified information, and financial benefits that make them some of the most privileged individuals in the world. The Association operates under a complex political structure with the Chairman at its head, supported by the Zodiacs, a group of twelve elite Hunters who help make crucial decisions.",
+        "children": [
+            {
+                "title": "The Hunter Exam",
+                "level": "h3",
+                "content": "The Hunter Exam is an annual test that determines who is worthy of becoming a licensed Hunter. The exam is notorious for its extreme difficulty and high mortality rate, with hundreds of applicants but only a handful of successful candidates each year. The test consists of multiple phases that evaluate not only physical and mental capabilities but also character, adaptability, and the ability to work with others. Each phase presents unique challenges that can range from endurance tests to psychological evaluations, ensuring that only the most capable individuals earn their licenses.",
+                "children": [
+                    {
+                        "title": "Phases of the Exam",
+                        "level": "h4",
+                        "content": "The Hunter Exam typically consists of several phases, each designed to test different aspects of the candidates. The first phase often involves endurance challenges that can last for hours or days, weeding out those who lack the physical stamina required for dangerous missions. Subsequent phases may include written tests, combat evaluations, survival challenges, and psychological assessments. The final phase usually involves direct combat between the remaining candidates, though the specific format can vary depending on the current examiners."
+                    },
+                    {
+                        "title": "Notable Examinees",
+                        "level": "h4",
+                        "content": "The 287th Hunter Exam featured several candidates who would go on to become significant figures in the Hunter world. Gon Freecss, Killua Zoldyck, Kurapika, and Leorio Paradinight all participated in this exam, each bringing unique skills and motivations. Their interactions during the exam revealed their distinct personalities and established the friendships that would drive much of the series' plot. The exam also introduced dangerous individuals like Hisoka, whose presence added an element of unpredictable menace to the proceedings."
+                    }
+                ]
+            },
+            {
+                "title": "Types of Hunters",
+                "level": "h3",
+                "content": "The Hunter Association recognizes numerous specializations, each focusing on different aspects of exploration, research, or enforcement. These specializations allow Hunters to pursue their particular interests while contributing to the Association's broader goals. Some focus on discovering new species or territories, others on apprehending dangerous criminals, and still others on preserving historical artifacts or knowledge. The diversity of Hunter types reflects the organization's comprehensive approach to understanding and protecting the world's mysteries.",
+                "children": [
+                    {
+                        "title": "Treasure Hunters",
+                        "level": "h4",
+                        "content": "Treasure Hunters specialize in locating and recovering valuable artifacts, lost civilizations, and hidden treasures. They often work in dangerous environments, from ancient ruins to unexplored wilderness areas. These Hunters must possess not only physical courage but also extensive knowledge of history, archaeology, and appraisal techniques. Their discoveries often contribute to humanity's understanding of the past while sometimes uncovering dangerous secrets that were better left buried."
+                    },
+                    {
+                        "title": "Bounty Hunters",
+                        "level": "h4",
+                        "content": "Bounty Hunters focus on capturing criminals and fugitives, often taking on cases that regular law enforcement cannot handle. They must be skilled in combat, tracking, and investigation, as their targets are usually dangerous individuals with their own supernatural abilities. The work is inherently risky, but the rewards can be substantial, especially when dealing with high-value targets. Many Bounty Hunters work closely with law enforcement agencies around the world."
+                    }
+                ]
+            },
+            {
+                "title": "The Zodiacs",
+                "level": "h3",
+                "content": "The Zodiacs are the twelve most elite Hunters in the Association, serving as the Chairman's inner circle and advisors. Each member is named after an animal from the Chinese zodiac and possesses extraordinary abilities that make them among the most powerful individuals in the world. They are responsible for making major decisions that affect the Association's direction and handling crises that require the highest level of intervention. The Zodiacs also serve as potential candidates for the Chairman position, ensuring continuity of leadership within the organization.",
+                "children": [
+                    {
+                        "title": "Chairman Election",
+                        "level": "h4",
+                        "content": "When Isaac Netero died during the Chimera Ant crisis, the Zodiacs organized a democratic election to choose his successor. The election process revealed the complex political dynamics within the Association, as various factions supported different candidates with different visions for the organization's future. The election ultimately resulted in Cheadle Yorkshire becoming the new Chairman, though not without significant controversy and manipulation from various parties seeking to influence the outcome."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Chimera Ants",
+        "level": "h2",
+        "content": "Chimera Ants represent one of the most dangerous and fascinating species in the Hunter x Hunter universe. These creatures possess the unique ability to consume other organisms and inherit their characteristics, allowing them to evolve rapidly and develop incredible powers. Originally small and relatively harmless, Chimera Ants can grow to enormous sizes and develop human-level intelligence when they consume the right prey. The species operates under a rigid social hierarchy similar to that of real ants, with a Queen at the top who births specialized offspring for different roles within the colony. Their rapid evolution and consumption-based growth make them a significant threat to all other life forms.",
+        "children": [
+            {
+                "title": "Biological Characteristics",
+                "level": "h3",
+                "content": "Chimera Ants are unique among living creatures due to their ability to incorporate genetic material from their prey into their own offspring. When a Chimera Ant consumes another organism, the Queen can pass on the consumed creature's traits to her children, creating hybrid beings with mixed characteristics. This process, called Phagogenesis, allows the species to rapidly adapt to new environments and threats. The more diverse their diet, the more varied and powerful their offspring become, leading to increasingly dangerous generations of ants.",
+                "children": [
+                    {
+                        "title": "Phagogenesis Process",
+                        "level": "h4",
+                        "content": "The Phagogenesis process begins when worker ants bring food to the Queen, who consumes it and uses the genetic information to create new offspring. The Queen can selectively choose which traits to pass on, creating specialized soldiers, workers, or officers based on the colony's needs. This process is so efficient that within a few generations, Chimera Ants can evolve from simple insects to complex beings with human intelligence and supernatural abilities. The randomness of which traits are inherited adds an element of unpredictability to each new generation."
+                    }
+                ]
+            },
+            {
+                "title": "The Chimera Ant Hierarchy",
+                "level": "h3",
+                "content": "Chimera Ant society is structured as a strict hierarchy with clearly defined roles and absolute loyalty to those of higher rank. At the apex sits the Queen, whose sole purpose is reproduction and who commands absolute authority over all other ants. Below her are the Royal Guards, elite soldiers created specifically to protect the Queen and later the King. Squadron Leaders command groups of officers and soldiers, while officers lead squads of worker ants. This rigid structure ensures efficient organization but also creates potential for conflict when individual ants begin to develop their own personalities and desires.",
+                "children": [
+                    {
+                        "title": "The King - Meruem",
+                        "level": "h4",
+                        "content": "Meruem, the Chimera Ant King, represents the pinnacle of the species' evolution. Born with incredible physical power and intelligence, he was designed to surpass all other life forms and establish Chimera Ant dominance over the world. Initially viewing other species as nothing more than food, Meruem's worldview gradually changes through his interactions with humans, particularly through his relationship with Komugi, a blind girl who consistently defeats him at the board game Gungi. His character development from a ruthless predator to a being capable of genuine emotion and respect represents one of the most complex character arcs in the series."
+                    },
+                    {
+                        "title": "Royal Guards",
+                        "level": "h4",
+                        "content": "The three Royal Guards - Neferpitou, Shaiapouf, and Menthuthuyoupi - are among the most powerful beings in the Hunter x Hunter universe. Each possesses unique abilities and personalities while sharing absolute devotion to their King. Neferpitou combines cat-like agility with incredible healing and manipulation abilities, Shaiapouf can divide himself into countless smaller versions and manipulate emotions, while Menthuthuyoupi can transform his body into various weapons and forms. Their loyalty to Meruem is so complete that they would sacrifice themselves without hesitation to ensure his survival."
+                    }
+                ]
+            },
+            {
+                "title": "The Chimera Ant Crisis",
+                "level": "h3",
+                "content": "The emergence of the Chimera Ant Queen in the NGL (Neo-Green Life) territory marked the beginning of one of the most dangerous crises in human history. As the ants began consuming humans and developing human-like intelligence and Nen abilities, they posed an existential threat to humanity. The Hunter Association responded by sending a team of elite Hunters, including Chairman Netero himself, to eliminate the threat. The resulting conflict tested the limits of human power and resolve, ultimately requiring the use of a miniature nuclear weapon called the Poor Man's Rose to defeat the King.",
+                "children": [
+                    {
+                        "title": "The Extermination Team",
+                        "level": "h4",
+                        "content": "The Chimera Ant Extermination Team consisted of some of the most powerful Hunters in the Association, including Isaac Netero, Morel Mackernasey, and Knov. They were later joined by Gon, Killua, and other skilled fighters who had personal stakes in the conflict. The team employed various strategies to infiltrate the ants' stronghold and separate the Royal Guards from the King, recognizing that a direct confrontation with all of them together would be impossible to win. The mission's success came at great personal cost to many team members."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "The Dark Continent",
+        "level": "h2",
+        "content": "The Dark Continent represents the ultimate frontier in the Hunter x Hunter world, a massive landmass that dwarfs the known world and contains dangers beyond human comprehension. This unexplored territory is home to creatures and phenomena that make even the Chimera Ants seem manageable by comparison. The human world, which includes all known civilizations, is actually just a small lake within the Dark Continent, highlighting the vast scope of unexplored territory. Previous expeditions to the Dark Continent have ended in disaster, with survivors bringing back catastrophic diseases, curses, and other horrors that have plagued humanity for generations. The Continent's very existence challenges humanity's understanding of the world and their place within it.",
+        "children": [
+            {
+                "title": "The Five Great Calamities",
+                "level": "h3",
+                "content": "The Five Great Calamities are disasters that previous expeditions have brought back from the Dark Continent, each representing a different type of threat to human civilization. These calamities include Zobae Disease, a contagious illness that transforms humans into zombie-like creatures; Ai, a gaseous life form that feeds on love and desire; Pap, a parasitic plant that controls its host's mind; Brion, a creature that brings immortality at the cost of sanity; and Hellbell, a twin-tailed snake whose bite brings certain death. These calamities demonstrate that the Dark Continent contains threats that operate on principles completely alien to human understanding.",
+                "children": [
+                    {
+                        "title": "Zobae Disease",
+                        "level": "h4",
+                        "content": "Zobae Disease is a highly contagious affliction that transforms infected individuals into zombie-like creatures with an insatiable hunger for human flesh. The disease spreads rapidly through populations and has been responsible for several major outbreaks throughout history. What makes it particularly dangerous is its ability to retain the infected person's memories and basic intelligence while completely overriding their moral inhibitions and survival instincts. Containing outbreaks requires extreme measures, including the complete isolation or elimination of infected areas."
+                    }
+                ]
+            },
+            {
+                "title": "Previous Expeditions",
+                "level": "h3",
+                "content": "Throughout history, various groups have attempted to explore the Dark Continent, but most expeditions have ended in complete failure. The few survivors who have returned often bring back more problems than solutions, introducing new threats to the human world. These expeditions have been sponsored by different organizations and nations, each seeking to claim the Continent's rumored treasures and resources. The pattern of failure has led to an unofficial ban on further exploration, though some individuals and groups continue to plan secret expeditions despite the overwhelming evidence of danger.",
+                "children": [
+                    {
+                        "title": "Beyond Netero's Expedition",
+                        "level": "h4",
+                        "content": "Beyond Netero, the son of former Hunter Association Chairman Isaac Netero, has been planning a new expedition to the Dark Continent for years. His approach differs from previous attempts in that he seeks to establish a permanent base of operations rather than simply exploring and returning. Beyond has recruited a team of specialists and has been working to gather the massive resources required for such an undertaking. His expedition represents humanity's most ambitious attempt to establish a foothold in the Dark Continent, though many question whether even his careful planning can overcome the fundamental dangers that have claimed all previous expeditions."
+                    }
+                ]
+            },
+            {
+                "title": "Restrictions and Regulations",
+                "level": "h3",
+                "content": "Due to the catastrophic results of previous expeditions, the international community has established strict regulations regarding travel to the Dark Continent. The V5, a council of the world's five most powerful nations, has implemented a complete ban on unauthorized expeditions. Any attempts to reach the Continent must be approved by all five nations and must meet extremely strict safety requirements. These regulations exist not just to protect the expedition members but to prevent the introduction of new calamities to the human world, as the consequences of such introductions could threaten the entire species.",
+                "children": [
+                    {
+                        "title": "The V5 Council",
+                        "level": "h4",
+                        "content": "The V5 consists of the five most powerful nations in the Hunter x Hunter world, each representing a different region and set of interests. These nations have agreed to work together specifically to prevent unauthorized exploration of the Dark Continent, recognizing that the threat it poses transcends national boundaries. The council has the authority to use military force to stop expedition attempts and has established a comprehensive monitoring system to detect preparation for such expeditions. Their cooperation on this issue represents one of the few areas where these competing nations can find common ground."
                     }
                 ]
             }

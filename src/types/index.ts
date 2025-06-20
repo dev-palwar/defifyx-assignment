@@ -1,5 +1,3 @@
-// types/toc.ts
-
 /**
  * Represents a single item in the Table of Contents.
  */

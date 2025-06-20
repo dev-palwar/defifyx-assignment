@@ -8,7 +8,9 @@ import TocList from "./toc-list";
 const Toc: React.FC<TocProps> = ({ data, isCollapsible, activeColor }) => {
   const [highlightedId, setHighlightedId] = useState<string>();
   const [expandedMap, setExpandedMap] = useState<Record<string, boolean>>({});
-  const [showFloatingToc, setShowFloatingToc] = useState(false);
+  const [showTocList, setShowTocList] = useState(false);
+  const [userHoveredOnce, setUserHoveredOnce] = useState(false);
+  const [forceHide, setForceHide] = useState(false);
 
   useEffect(() => {
     const handleHashChange = () => {
@@ -22,18 +24,24 @@ const Toc: React.FC<TocProps> = ({ data, isCollapsible, activeColor }) => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
-      // Show after scrolling 90vh (height of hero)
-      setShowFloatingToc(scrollY > window.innerHeight * 0.9);
+      const shouldShow = scrollY > window.innerHeight * 0.9;
+      if (shouldShow && !userHoveredOnce) {
+        setShowTocList(true);
+      } else if (!shouldShow) {
+        setShowTocList(false);
+        setUserHoveredOnce(false);
+        setForceHide(false);
+      }
     };
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [userHoveredOnce]);
 
   return (
     <div className="m-auto container main-container p-4 flex flex-col gap-8">
       {/* Hero section starts */}
-      <div className="hero-section min-h-[95vh] flex flex-col lg:flex-row justify-end gap-4 items-center px-4 lg:px-20 relative">
+      <div className="hero-section min-h-[95vh] flex flex-col lg:flex-row justify-end items-center px-4 lg:px-20 relative gap-4 lg:gap-0">
         {/* Title */}
         <Typography
           variant="h1"
@@ -69,13 +77,20 @@ const Toc: React.FC<TocProps> = ({ data, isCollapsible, activeColor }) => {
 
       {/* Content viewer section */}
       <div className="content-viewer-section relative">
-        {/* Floating and Sticky tox */}
-        {showFloatingToc && (
+        {/* Floating and Sticky Toc */}
+        {showTocList && !forceHide && (
           <div
-            className="fixed top-16 right-12 z-10 w-[300px] bg-accent border rounded-3xl shadow-xl
-      opacity-0 hover:opacity-100 scale-95 hover:scale-100 
-      translate-y-2 hover:translate-y-0 transition-all duration-300 ease-in-out p-3
-      hidden sm:block"
+            className={`fixed top-16 right-12 z-10 w-[300px] p-4 bg-accent rounded-3xl shadow-xl border border-yellow-400 transition-all duration-300 scale-95 hover:scale-100 
+      translate-y-2 hover:translate-y-0 ease-in-out hidden sm:block ${
+        !userHoveredOnce ? "animate-pulse" : ""
+      }`}
+            onMouseEnter={() => {
+              setUserHoveredOnce(true);
+              setForceHide(false);
+            }}
+            onMouseLeave={() => {
+              setForceHide(true);
+            }}
           >
             <TocList
               items={data}
@@ -87,6 +102,16 @@ const Toc: React.FC<TocProps> = ({ data, isCollapsible, activeColor }) => {
               activeColor={activeColor}
             />
           </div>
+        )}
+
+        {/* When user has hovered once, this allows hover trigger again */}
+        {userHoveredOnce && forceHide && (
+          <div
+            className="fixed top-16 right-12 z-10 w-[300px] h-[400px] rounded-3xl hidden sm:block"
+            onMouseEnter={() => {
+              setForceHide(false);
+            }}
+          ></div>
         )}
 
         <TocRenderer data={data} />

@@ -83,13 +83,6 @@ npm run dev
 
 The app should now be running at http://localhost:5173
 
-- Clone the Repository
-
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-```
-
 ## 🧩 How to Use the Table of Contents Component
 
 You can integrate the `Toc` component like this:

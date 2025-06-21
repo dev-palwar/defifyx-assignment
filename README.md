@@ -71,9 +71,9 @@ A **Table of Contents (ToC)** component built with **React** and **Tailwind CSS*
 - Clone the Repository
 
 ```bash
-git clone https://github.com/dev-palwar/defifyx-assignment
+git clone https://github.com/dev-palwar/Table-of-contents-react-component
 
-cd defifyx-assignment
+cd Table-of-contents-react-component
 
 npm install
 
